@@ -5,7 +5,7 @@ It's the most generic object pooling system that i've been using for a long time
 ### How To Use
 
 1. First of all, there is script called "Poolable". **You need attach it to the game object that you are going to use by pulling/pushing. We need that because Poolable has the necessary methods & properties to pull & push properly. It's just object you want to spawn basically.**
-2. Create a Spawner/Factory script. Create reference for the GameObject that you are going to pool.
+2. Create a Spawner/Factory script. Create reference for the GameObject that you are going to pool (spawn).
 3. We need to handle with Pool now. We have a script that handles with Object Pooling called "ObjectPooling". Inside of the script, there are comments that explain methods functionality. Create Pool reference like this and give Poolable generic type inside of it: 
 `private ObjectPooling<Poolable> _cubePool;`
 4. Then in Awake/Start, we need to create the Pool:
