@@ -15,7 +15,7 @@ It's the most generic object pooling system that i've been using for a long time
 6. To push the object to the pool, you basically disable it anywhere you want with GameObject.SetActive(false);
 
 
-**There is a script called "ExampleSpawner inside the project. You can find more information about Pulling/Pushing and creating the pool. It's super easy actually. I will just implement it here.**
+**There is a script called "ExampleSpawner inside the project. You can find more information about Pulling/Pushing and creating the pool. It's super easy actually. I will just implement it here if you feel lazy about looking in the project itself.**
 
 
     using System;
